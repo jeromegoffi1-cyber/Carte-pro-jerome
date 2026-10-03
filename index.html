@@ -239,7 +239,7 @@
   if (inApp) {
     msg = 'Vous êtes dans le navigateur intégré d’une application, qui bloque l’enregistrement. Ouvrez cette page dans ' + (isIOS ? 'Safari' : 'Chrome') + ' (menu ⋯ ou ↗ « Ouvrir dans le navigateur »), puis touchez « Enregistrer le contact ».';
   } else if (isIOS) {
-    msg = 'Si la fiche s’affiche sans bouton pour l’enregistrer : revenez en arrière, faites un appui long sur le numéro de téléphone ci-dessus, puis choisissez « Ajouter aux contacts » > « Créer un nouveau contact ». Pensez aussi à ouvrir cette page dans Safari (pas depuis WhatsApp ou Messenger).';
+    msg = 'Sur la fiche qui s’ouvre, faites défiler tout en bas et touchez « Créer un nouveau contact » (le bouton n’est pas en haut, c’est iOS). Sinon : appui long sur le numéro de téléphone ci-dessus > « Ajouter aux contacts », ou scannez le QR code du bas. Ouvrez cette page dans Safari, pas dans WhatsApp ou Messenger.';
   } else if (isAndroid) {
     msg = 'Touchez « Enregistrer le contact », puis ouvrez le fichier téléchargé (notification ou dossier Téléchargements) et choisissez « Contacts » pour l’importer.';
   }
