@@ -3,7 +3,8 @@ VERSION:3.0
 N:Goffi;Jérôme;;;
 FN:Jérôme Goffi
 TITLE:Expert-comptable & Commissaire aux comptes
-TEL;TYPE=CELL:+596696880386
-EMAIL:jerome.goffi@icloud.com
+TEL;TYPE=CELL,VOICE:+596696880386
+EMAIL;TYPE=INTERNET,WORK:jerome.goffi@icloud.com
 URL:https://www.linkedin.com/in/jerome-goffi
+REV:2026-10-03T00:00:00Z
 END:VCARD
