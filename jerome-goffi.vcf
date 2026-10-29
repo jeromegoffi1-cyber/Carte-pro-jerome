@@ -2,9 +2,11 @@ BEGIN:VCARD
 VERSION:3.0
 N:Goffi;Jérôme;;;
 FN:Jérôme Goffi
+ORG:JG Expertise & Audit
 TITLE:Expert-comptable & Commissaire aux comptes
 TEL;TYPE=CELL,VOICE:+596696880386
-EMAIL;TYPE=INTERNET,WORK:jerome.goffi@icloud.com
+EMAIL;TYPE=INTERNET,WORK:jerome.goffi@jgexpertise-audit.fr
+URL:https://www.jgexpertise-audit.fr
 URL:https://www.linkedin.com/in/jerome-goffi
-REV:2026-10-03T00:00:00Z
+REV:2026-10-29T00:00:00Z
 END:VCARD
