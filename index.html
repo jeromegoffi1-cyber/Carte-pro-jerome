@@ -64,6 +64,28 @@
     background:var(--accent);
     margin:18px auto 22px;
   }
+  .divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    margin:0 auto 26px;
+    width:78%;
+  }
+  .divider::before,.divider::after{
+    content:"";
+    flex:1;
+    height:1px;
+  }
+  .divider::before{ background:linear-gradient(to right, rgba(26,26,26,0), rgba(26,26,26,0.35)); }
+  .divider::after{ background:linear-gradient(to left, rgba(26,26,26,0), rgba(26,26,26,0.35)); }
+  .divider span{
+    width:7px;
+    height:7px;
+    background:#F08C1E;
+    transform:rotate(45deg);
+    flex-shrink:0;
+  }
   .identity{ text-align:center; }
   .name{
     font-family:Cambria, Caladea, Georgia, 'Times New Roman', serif;
@@ -177,6 +199,7 @@
 
   <img class="logo" src="icon-192.png" alt="Logo JG Expertise &amp; Audit" width="64" height="64">
   <p class="firm">JG Expertise &amp; Audit</p>
+  <div class="divider" aria-hidden="true"><span></span></div>
 
   <div class="identity">
     <p class="name">Jérôme Goffi</p>
