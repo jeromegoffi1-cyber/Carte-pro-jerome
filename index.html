@@ -196,6 +196,7 @@
   .tagline-top{text-align:center;font-size:clamp(8px,2.6vw,11px);font-weight:700;letter-spacing:.12em;overflow:hidden;text-transform:uppercase;color:#E07A10;margin:10px 0 18px;white-space:nowrap}
   .firm{margin-bottom:0 !important}
   .identity{margin-bottom:28px}
+  .title{white-space:nowrap;overflow:hidden;font-size:clamp(11px,3.8vw,15px)}
 </style>
 </head>
 <body>
@@ -266,8 +267,8 @@
 </script>
 
 <script>
-(function(){var t=document.querySelector('.tagline-top');if(!t)return;
-function fit(){t.style.fontSize='';var fs=parseFloat(getComputedStyle(t).fontSize),n=0;while(t.scrollWidth>t.clientWidth&&fs>6&&n<40){fs-=0.25;t.style.fontSize=fs+'px';n++;}}
+(function(){var els=[document.querySelector('.tagline-top'),document.querySelector('.title')].filter(Boolean);
+function fit(){els.forEach(function(t){t.style.fontSize='';var fs=parseFloat(getComputedStyle(t).fontSize),n=0;while(t.scrollWidth>t.clientWidth&&fs>6&&n<60){fs-=0.25;t.style.fontSize=fs+'px';n++;}});}
 fit();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);window.addEventListener('resize',fit);})();
 </script>
 </body>
